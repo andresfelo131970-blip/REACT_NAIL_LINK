@@ -89,19 +89,39 @@ label {
     box-shadow: 0 0 8px rgba(244, 162, 189, 0.2);
 }
 
-/* Botón */
-.btn-submit {
-    width: 100%;
-    padding: 16px;
-    background-color: var(--primary-pink);
-    color: white;
-    border: none;
-    border-radius: 15px;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: all 0.3s ease;
+/* Botónes */
+.btn-submit{
+
+    width:100%;
+
+    padding:16px;
+
+    background-color:var(--primary-pink);
+
+    color:white;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:all .3s ease;
+
+    text-decoration:none;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-sizing:border-box;
+
 }
 
 /* Hover botón */
@@ -207,5 +227,26 @@ label {
     width:110px;
 
     margin:0 auto 20px;
+
+}
+.login-buttons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    margin-top:15px;
+
+}
+/* Tarjeta del registro */
+.login-card.registro{
+
+    max-width:700px;
+
+    max-height:90vh;
+
+    overflow-y:auto;
 
 }

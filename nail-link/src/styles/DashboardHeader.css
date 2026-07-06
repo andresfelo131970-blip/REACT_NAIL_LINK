@@ -1,0 +1,136 @@
+.dashboard-header{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:20px 35px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+}
+
+/* ---------- Texto ---------- */
+
+.header-left h2{
+
+    color:#C76C8A;
+
+    margin:0;
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+
+.header-left p{
+
+    margin-top:8px;
+
+    color:#777;
+
+    font-size:15px;
+
+}
+
+/* ---------- Parte derecha ---------- */
+
+.header-right {
+    display: flex;
+    align-items: center;       
+    justify-content: flex-end; 
+    gap: 15px;                 
+}
+
+/* ---------- Botón notificación ---------- */
+
+.notification-btn{
+
+    width:48px;
+
+    height:48px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#FCECEF;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    transition:.3s;
+
+}
+
+.notification-btn:hover{
+
+    background:#E98DB0;
+
+    color:white;
+
+}
+
+/* ---------- Avatar ---------- */
+
+.user-avatar{
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:50%;
+
+    background:#E98DB0;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    box-shadow:0 5px 15px rgba(233,141,176,.35);
+
+}
+/*---------------- BOTÓN SALIR ----------------*/
+
+.logout-header {
+    margin: 0; 
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    background: #E98DB0;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+.logout-header:hover{
+
+    background:#f3adca;
+    transform:scale(1.05);
+    color:white;
+
+
+}
